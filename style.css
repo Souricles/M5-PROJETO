@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    width: 349px;
+    color: #5D5D7D;
+    font-size: 51px;
+    line-height: 72px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+p {
+    width: 584px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    color: #5D5D7D;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    fill: #9499EA;
+    background: #9499EA;
+    border-radius: 25px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.cell-phone {
+  width: 300px;
+  position: relative;
+  top: 20%;
+  right: 24%;
+}
+
+.link-header {
+    color: #5D5D7D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px 15px 0px 15px;
+    cursor: pointer;
+}
+
+.link {
+    margin-right: 8px;
+}
+
+.container-left {
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    top: 38%; 
+    left: 10%;
+    
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(93,93,125,0.16);
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+
+
+}
+
+@media screen and (max-width: 900px) {
+.container-left {
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+h1 {
+    width: 349px;
+    color: #5D5D7D;
+    font-size: 51px;
+    line-height: 72px;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    top: -71%;
+    text-align: center;
+    left: -5%;
+}
+p {
+    width: 385px;
+    height: auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    color: #5D5D7D;
+    text-align: center;
+    top: 10%;
+    position: absolute;
+    top: -38%;
+    left: -10%;
+    
+}
+button {
+    width: 238px;
+    height: 52px;
+    flex-shrink: 0;
+    fill: #9499EA;
+    background: #9499EA;
+    border-radius: 25px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    position: absolute;
+    top: 11%;
+    left: 8%;
+}
+.container-right {
+    display: block;
+    background-color: rgba(93,93,125,0.16);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+}
+.link-header {
+    display: none;
+}
+.cell-phone {
+    width: 286px;
+    position: absolute;
+    top: 7%;
+    right: 19%;
+}
+
+}
